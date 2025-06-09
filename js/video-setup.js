@@ -1,0 +1,1 @@
+for(let a of [...document.getElementsByTagName('video-js')])videojs(a,{controls:!0,autoplay:!1}).qualityMenu();
